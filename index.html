@@ -9,26 +9,34 @@
         <!-- este es el icono de la pagina-->
         <link rel="shortcut icon" href="./2006633.ico"  type="image/x-icon">
         <!-- Dentro del head van linkeados las hojas en cascada de CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
     <body>
 
 
-        <header class="HeaderPrincipal"> 
+        <header class="HeaderPrincipal container-fluid"> 
     <!-- todos los nav tienen que ser iguales, dentro de ellos el # refiere a la pagina de html en la que te encontras, el resto deben estar linkeados segun su ubicacion, el unico que es diferente es el index-->
 
     <!-- esto es el icono-->
-    <div> <img src="./assets/img/logo ceci.png" alt="logo" class="iconceci"> </div>
+    <div> <img src="./assets/img/logo ceci.png" alt="logo" class="iconceci"> 
+    
+            <!-- esto es la nevagion-->
+        <nav class="fixedNav"> 
+            <a class="LinkNav TextoDerecha" href="#">Inicio</a></li>
+            <a class="LinkNav TextoDerecha" href="./pages/galeria.html">Galeria</a></li>
+            <a class="LinkNav TextoDerecha" href="./pages/nosotros.html">Nosotros</a></li>
+            <a class="LinkNav TextoDerecha" href="./pages/opiniones.html">Opiniones</a></li>
+            <a class="LinkNav TextoDerecha" href="./pages/contacto.html">Contacto</a></li>
+    </nav>
 
-        <!-- esto es la nevagion-->
+    
+    </div>
 
-            <nav class="fixedNav"> 
-                    <a class="LinkNav TextoDerecha" href="#">Inicio</a></li>
-                    <a class="LinkNav TextoDerecha" href="./pages/galeria.html">Galeria</a></li>
-                    <a class="LinkNav TextoDerecha" href="./pages/nosotros.html">Nosotros</a></li>
-                    <a class="LinkNav TextoDerecha" href="./pages/opiniones.html">Opiniones</a></li>
-                    <a class="LinkNav TextoDerecha" href="./pages/contacto.html">Contacto</a></li>
-            </nav>
+    
+
+
 
         </header>
 
@@ -36,12 +44,12 @@
 
 <!-- todos los img  son imagenes
 aca van 3 imagens-->
-        <main class="BodyColor"> 
+        <main class="BodyColor container"> 
             <section>
                 <h1 class="TextoCentrado" > Cecilia Fein Desing </h1> 
     <center> <img class="MainCeciPhoto" src="./assets/img/profile (1).jpg" alt=""  >
         <img class="MainCeciPhoto" src="./assets/img/ceciremix.jpg" alt="">
-        <img class="MainCeciPhoto" src="./assets/img/2nd pic.jpg" alt="" > <center>
+        <img class="MainCeciPhoto" src="./assets/img/2nd pic.jpg" alt="" > 
             <h2> Bienvenidos! </h2>
             <h3> En este lugar encontraran creaciones producidas por la diseñadora multimedia Cecilia Fein</h3>
 
@@ -49,7 +57,7 @@ aca van 3 imagens-->
             <!-- Estos son los subtitulos que podemos tener [H1 -  H2 - H3 - H4 - H5 - H6]-->
         
             <section>
-                <H1> Un poquito de mi Historia:</H1>ç
+                <H1> Un poquito de mi Historia:</H1>
 
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique obcaecati, molestiae, repellendus sint accusamus incidunt at aspernatur eos distinctio excepturi deserunt fugiat quas suscipit labore. Voluptatibus excepturi quo vero!
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, nemo. Facere possimus sequi, sint recusandae sunt id iusto explicabo aliquid, rem, eaque tempora? Neque enim magnam eos veniam incidunt quis?
@@ -84,10 +92,17 @@ aca van 3 imagens-->
             <footer class="TextoCentrado footercolor"> © Todos los derechos reservados Cecilia Fein 2023 © 
                 <!-- Siempre que utilizamos un hipervinculo que va hacia otra pagina debemos poner target="_blank" para que el vinculo se genere en otra 
                 pestaña y no cierre nuestra pagina -->
-                Instagram <a href="www.instagram.com" target="_blank
+                <section class="buttons">
+                    <a href="https://www.facebook.com"  class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.google.com" class="fa fa-google-plus" target="_blank"></a>
+                    <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
+                    <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
+                </section>
                 "></a> </footer> 
-            <!-- podemos usar <center> para centrar aunque es mejor hacerlo con css-->
+                
 
+                <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 
 

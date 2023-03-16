@@ -1,56 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/">
         <title>Cecilia Fein Design</title>
         <!-- este es el icono de la pagina-->
-        <link rel="shortcut icon" href="./2006633.ico"  type="image/x-icon">
+        <link rel="shortcut icon" href="../2006633.ico"  type="image/x-icon">
         <!-- Dentro del head van linkeados las hojas en cascada de CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
-    </head>
+</head>
 <body>
-    <header class="HeaderPrincipal"> 
-        <div> <img src="../assets/img/logo ceci.png" alt="logo" class="iconceci"> </div>
-        
-        <nav class="fixedNav">
-            <!-- Este es el menu de navegacion-->
-        
-                <a class="LinkNav TextoDerecha" href="../index.html">Inicio</a></li>
-                <a class="LinkNav TextoDerecha" href="./galeria.html">Galeria</a></li>
-                <a class="LinkNav TextoDerecha" href="./nosotros.html">Nosotros</a></li>
-                <a class="LinkNav TextoDerecha" href="#">Opiniones</a></li>
-                <a class="LinkNav TextoDerecha" href="./contacto.html">Contacto</a></li>
-        </nav>
-    </header>
-    <main class="BodyColor">
-        <section class="fondoSection sectionFlex">
-            <div class="divFlex">
-                <img src="../assets/img/Mariana.jpg" alt="imagen de Mariana" class="MainCeciPhoto"> 
-            </div>
+    <Header class="container-fluid">
+        <!-- esta es la navegacion-->
 
-                <div>
-                <p class="comentario"> Mariana Dice: Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aperiam, quidem ducimus ea magni deserunt provident non ipsa, nostrum dolore commodi harum dolores recusandae doloribus molestias alias quod ipsam vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nobis, rem eum eveniet soluta consequuntur, facilis ratione quaerat, ea aperiam assumenda? Voluptates ipsum dicta ad accusantium perspiciatis veniam maiores saepe. .</p> 
+        <div> <img src="../assets/img/logo ceci.png" alt="logo" class="iconceci"> 
+        
+            <nav class="fixedNav">
+                <!-- Este es el menu de navegacion-->
+                    <a class="LinkNav TextoDerecha" href="../index.html">Inicio</a></li>
+                    <a class="LinkNav TextoDerecha" href="./galeria.html">Galeria</a></li>
+                    <a class="LinkNav TextoDerecha" href="./nosotros.html">Nosotros</a></li>
+                    <a class="LinkNav TextoDerecha" href="#">Opiniones</a></li>
+                    <a class="LinkNav TextoDerecha" href="./contacto.html">Contacto</a></li>
+                
+            </nav>
+
+        </div>
+    </Header>
+    <Main class="container">
+        <h1> Mariana Dice:</h1>
+        <section class="row">
+            <div class="col-sm-12 col-md-4">
+                <img class="imgAdaptContain" src="../assets/img/Mariana.jpg " alt="fotoDeMariana">
+            </div>
+            <div class="col-sm-12 col-md-4 border border-5">
+                <p> El trabajo ralizado por la diseñadora grafica Cecilia Fein no tiene comparasion, no solo por su creatividad y la pasion que la llevan a dar un estilo unico a sus creaciones, sino tambien porque dedica el 100% a cada proyecto</p>
             </div>
         </section>
-
-        <section class="fondoSection sectionFlex">
-            <div class="divFlex">
-            <img src="../assets/img/Paola.jpg" alt="Imagen de Paola" class="MainCeciPhoto"> </div>
-            <div> <p class="comentario"> 
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quae veritatis, quis esse laudantium libero sint repellat iste assumenda soluta dolorem alias aspernatur unde quidem aut accusamus, sequi ipsam quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione minus assumenda vitae repellendus a consectetur blanditiis sed mollitia, non quia. Laudantium amet delectus odit vitae ipsum aspernatur non asperiores est.  </div>
-            </p>
+        <section class="row">
+            <h1> Paola Dice:</h1>
+            <div class="col-sm-12 col-md-4">
+                <img class="imgAdaptContain" src="../assets/img/Paola.jpg" alt="fotoDeMariana">
+            </div>
+            <div class="col-sm-12 col-md-4 border border-5">
+                <p>Nunca quede tan conforme con un trabajo como con el de la diseñadora Cecilia Fein, completamente profesional y objetiva.</p>
         </section>
 
-
-
-
-
-    </main>
-
-    <footer class="TextoCentrado footercolor"> © Todos los derechos reservados Cecilia Fein 2023 © </footer> 
-    
+    </Main>
+    <Footer class="container-fluid"> © Todos los derechos reservados Cecilia Fein 2023 © 
+        <section class="buttons">
+            <a href="https://www.facebook.com"  class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.google.com" class="fa fa-google-plus" target="_blank"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
+            <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
+        </section>
+    </Footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
