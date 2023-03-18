@@ -87,12 +87,6 @@ width: 50vh;
    background-color: rgb(177, 125, 56);
 }
 
-boxContact {
-
-   margin-left: 50px;
-   margin-right: 50px;
-}
-
 .divFlex{
    height: 40vh;
    width: 95%;
@@ -194,3 +188,21 @@ boxContact {
 }
 
 /* carousel*/ 
+
+/* center */ 
+.center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   
+}
+
+.fullwidth {
+   width: 100%;
+}
+
+.orangeBackground {
+   background-color: rgba(255, 166, 0, 0.321);
+}
