@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,200&display=swap');
 
 *{ font-family: 'Labrada', serif; 
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
 }
 
@@ -14,11 +14,11 @@
 
 /* fondos de paginas */
 .bodyIndex{
-   background-image: url(../assets/img/fondo.jpg);
-   height: 100vh;
-   background-repeat: repeat-y;
-   background-position: center;
-   background-size: cover;
+background-image: url(../assets/img/fondo.jpg);
+height: 100vh;
+background-repeat: repeat-y;
+background-position: center;
+background-size: cover;
 }
 
 .bodyUs{
@@ -31,23 +31,23 @@ background-color: rgba(171, 155, 73, 0.533);
 
 
 .iconceci{
-   display: flex;
-   justify-content: flex-start;
-   align-items: flex-start;
-   background-color: rgba(52, 50, 50, 0.44);
-   z-index: 10;
-   height: 70px;
-   width: 70px;;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+background-color: rgba(52, 50, 50, 0.44);
+z-index: 10;
+height: 70px;
+width: 70px;;
 }
 
 /* Estilos de la Navegacion*/ 
 
 .bgNav {
-   background-color: rgba(171, 155, 73, 0.533);
+background-color: rgba(171, 155, 73, 0.533);
 }
 
 .navTextColour{
-   color: black;
+color: black;
 }
 
 
@@ -56,8 +56,8 @@ background-color: rgba(171, 155, 73, 0.533);
 
 
 .MainCeciPhoto {
-   width: 200px;
-   height: 200px;
+width: 200px;
+height: 200px;
 }
 
 
@@ -65,49 +65,48 @@ background-color: rgba(171, 155, 73, 0.533);
 .DivTry {
 height: 100vh;
 width: 50vh;
-   background-color: aqua;
-   margin: 20px 20px 20px 20px;
+background-color: aqua;
+margin: 20px 20px 20px 20px;
 }
 
 
 .CecisImages {
 
-   height: 500px;
-   width: 500px;
-   border-style: solid;
-   border-width: 7px;
+height: 500px;
+width: 500px;
+border-style: solid;
+border-width: 7px;
 }
 
 .GaleriaBody {
-   background-color: rgb(177, 125, 56);
+background-color: rgb(177, 125, 56);
 }
 
 
 .divFlex{
-   height: 40vh;
-   width: 95%;
-   margin: 1vh;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   align-items: flex-start;
-   justify-content: space-between;
+height: 40vh;
+width: 95%;
+margin: 1vh;
+display: flex;
+flex-direction: column;flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
 
 }
 
 .comentario {
 
-   background-color: blueviolet;
-   border-style: solid;
-   border-width: 5px;
+background-color: blueviolet;
+border-style: solid;
+border-width: 5px;
 }
 
 /* Main */ 
 .principal{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
 }
 
 /* estilos de texto*/
@@ -115,54 +114,54 @@ width: 50vh;
 
 
 .TextoDerecha {
-   text-align: right;
+text-align: right;
 }
 
 .TextoCentrado {
-   text-align: center;
+text-align: center;
 }
 
 
  /* Estilos de tabla */
 .tabla {
-   border-style: solid;
-   border-width: 5px;
+border-style: solid;
+border-width: 5px;
 }
 
 .sectionFlex{
-   height: 40vh;
-   width: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   align-content: space-evenly;
+height: 40vh;
+width: 80%;
+display: flex;
+lign-items: center;
+justify-content: center;
+align-content: space-evenly;
 }
 
 .align_left{
-   display: flex;
-   align-items: flex-start;
+display: flex;
+align-items: flex-start;
 }
 
 /* Estilado de botones */ 
 
 .buttons {
-   min-width: 700px;
-   display: flex;
-   justify-content: space-around;
+min-width: 700px;
+display: flex;
+justify-content: space-around;
 }
 
 .buttons a {
-   text-decoration: none;
-   font-size: 28px;
-   width: 60px;
-   height: 60px;
-   line-height: 60px;
-   text-align: center;
-   background: #314652;
-   color: #f1f1f1;
-   border-radius: 50%;
-   box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-   transition: all .4s ease-in-out;
+text-decoration: none;
+font-size: 28px;
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+background: #314652;
+color: #f1f1f1;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+transition: all .4s ease-in-out;
 }
 
 .buttons a:hover {
@@ -315,15 +314,15 @@ h1{
       grid-column: 4 / 6;
       grid-row : 3 / 5;
    }
-   
+
 
 }
 
 /* Media Quaris */ 
 
 .center{
-   right: auto;
-   left: auto;
-   text-align: center;
-   align-items: center;
+right: auto;
+left: auto;
+text-align: center;
+align-items: center;
 }
