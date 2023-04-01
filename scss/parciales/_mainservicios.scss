@@ -1,0 +1,67 @@
+.main__imagenS {
+    margin-top: 50px;
+    display: flex;
+    background-image: url(../Assets/fotoarmado.jpg);
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 80px;
+    cursor: default;
+    &--bold {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 5px solid rgb(58, 14, 87);
+        background-color: rgba(0, 0, 0, 0.507);
+        font-weight: 800;
+        font-style: italic;
+        margin-bottom: 5px;
+        padding: 0px 20px;
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    &--light {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 5px solid rgb(58, 14, 87);
+        background-color: rgba(0, 0, 0, 0.507);
+        font-weight: 200;
+        font-style: italic;
+        margin-bottom: 5px;
+        padding: 0px 20px;
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    }
+    .main__trabajosS {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 75vw;
+        grid-template-rows: auto auto auto auto;
+        justify-content: center;
+        row-gap: 40px;
+        padding: 30px 0px;
+        & div p {
+            color: white;
+            font-size: 1.2rem;
+            border-left: 2px solid rgb(33, 33, 109);
+            padding-left: 10px;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+    
+        .main__imagenS {
+            margin-top: 65px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            & span {
+                font-size: 1.5rem;
+                margin: 5px;
+            }
+        }
+        }

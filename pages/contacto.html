@@ -1,94 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/">
-        <title>Cecilia Fein Design</title>
-        <!-- este es el icono de la pagina-->
-        <link rel="shortcut icon" href="../2006633.ico"  type="image/x-icon">
-        <!-- Estilado de botones-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Dentro del head van linkeados las hojas en cascada de CSS-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/estilos.css">
-    </head>
-<body class="bodyUs">
-    <header class="container-fluid HeaderPrincipal"> 
-        <nav class="navbar navbar-expand-lg navTextColour bgNav">
-            <div class="container-fluid">
-                <img src="../assets/img/logo ceci.png" alt="logo" class="iconceci"> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./opiniones.html">Opiniones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                </li>
-                </ul>
-            </div>
-            </div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,600;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orbitron:wght@400;500;600;700;800;900&family=Russo+One&family=Teko:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/95d78b0e1a.js" crossorigin="anonymous"></script>
+    <script src="../Js/app.js" defer></script>
+    <link rel="shortcut icon" href="./2006633.ico"  type="image/x-icon">
+    <title>Cecilia Desing | Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          <a href="../index.html" class="nav__logo">Cecilia Desing</a>
+          <ul class="nav__items">
+            <li class="active"><a href="../index.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./galeria.html">GALERIA</a></li>
+            <li><a href="./SERVICIOS.html">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <span class="btn__menu">
+            <i class="fa fa-bars"></i>
+          </span>
         </nav>
-    </header>
-
-    <main class="container-fluid"> 
-        
-        <!-- este es el formulario de contacto, todos los "required" son los campos obligatorios-->
-        <section class="center fondoSection"> <h1> Contactanos!</h1>
-        <p> Por cualquier consulta o duda estamos a las ordenes!</p>
-        <p> Completa el formulario y nos contactaremos contigo a la brevedad</p>
-            <div> 
-                <form action="" class="fondoSection">
-                    <div>
-                    <label for="Nombre">Nombre</label>
-                    <input type="text" placeholder="Escriba su nombre" name="nombre" id="nombre" required>
-                    <div>
-
-                    <div>
-                        <label for="Apellido">Apellido</label>
-                    <input type="text" placeholder="Escriba su apellido" name="Apellido" id="Apellido" required>
-                    </div>
-
-                <div>  <label for="Correo Electronico">Correo Electronico</label>
-                    <input type="email" placeholder="Escriba su correo electronico" name=" Correo Electronico" id="Correo Electronico" required>
-                </div>
-
-                <div> <textarea  cols="30" rows="10" placeholder="Comentarios"></textarea></div>
-
-                <div> <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar formulario">
-                </div>
-                </form>
+  </header>
+    <main>
+        <div class="main__imagenC">
+            <span class="main__imagenC--bold">Contactanos!</span>
+            <span class="main__imagenC--light">¿Que estas esperando?</span>
+      </div>
+      <section class="main__seccionCartas">
+        <div class="main__cartas">
+          <div class="main__cartasCaja">
+            <div class="main__cartasContenido">
+              <h2>Dirección</h2>
+              <h3>Las Heras 1549</h3>
+              <p>Lunes a Viernes de 8 a 16 <br> Sábados de 10 a 14hs</p>
             </div>
-        </section>
-
-
+          </div>
+        </div>
+        <div class="main__cartas">
+          <div class="main__cartasCaja">
+            <div class="main__cartasContenido">
+              <h2>Teléfono</h2>
+              <h3>464 2 3659</h3>
+              <p>Lunes a Viernes de 8 a 16hs <br> Sábados de 10 a 14hs</p>
+            </div>
+          </div>
+        </div>
+        <div class="main__cartas">
+          <div class="main__cartasCaja">
+            <div class="main__cartasContenido">
+              <h2>WhatsApp</h2>
+              <h3>098999999</h3>
+              <p>Lunes a Viernes de 8 a 16hs <br> Sábados de 10 a 14hs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__mapa">
+        <iframe class="main__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.5476976848972!2d-56.14906579999999!3d-34.8927025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8102bcb8a591%3A0xecf1aabee2bbf120!2sGeneral%20las%20Heras%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1680317029830!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="row">
+          <form class="main__form" action="">
+            <h2>Contacto</h2>
+            <p type="Nombre:"><input type="text" placeholder="Indique su nombre completo..."></p>
+            <p type="Email:"><input type="text" placeholder="Indique su email..."></p>
+            <p type="Mensaje:"><input type="text" placeholder="Escriba su mensaje..."></p>
+            <button>Enviar Mensaje</button>
+            <div>
+              <span></span> 464 2 3659
+              <span></span> CeciliaDesign@gmail.com
+            </div>
+          </form>
+        </div>
+    </section> 
     </main>
-
-    <footer class="container-fluid TextoCentrado footercolor"> © Todos los derechos reservados Cecilia Fein 2023 © 
-        <section class="buttons">
-            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a> 
-            <a href="https://twitter.com/home" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.google.com.uy/" class="fa fa-google-plus" target="_blank"></a>
-            <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
-            <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin" target="_blank" ></a>
-        </section>
-    </footer> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<footer class="footer"> 
+      <p class="footer__frase"> © 2023 CeciDesing. Todos los derechos reservados.</p>
+      <div class="footer__iconos">
+        <div class="icon">
+          <svg>
+              <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+          </svg>
+          <i class='bx bxl-instagram'></i>
+        </div>
+        <div class="icon">
+          <svg >
+              <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+          </svg>
+          <i class='bx bxl-facebook-circle'></i>
+        </div>
+        <div class="icon">
+          <svg>
+              <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+          </svg>
+          <i class='bx bxl-whatsapp' ></i>
+        </div>
+        <div class="icon">
+          <svg>
+              <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+          </svg>
+          <i class='bx bxl-twitter' ></i>
+        </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
