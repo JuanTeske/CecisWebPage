@@ -1,0 +1,164 @@
+.main__imagen {
+    position: relative;
+    display: flex;
+    background-image: url(../Assets/Fondoindex.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 2.5rem;
+        & span {
+            margin: 50px;
+        }
+}
+.main__frase {
+    margin-top: 65px;
+    display: flex;
+    background-color: white;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    &--grande {
+        font-size: 2rem;
+    }
+    &--italica {
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: 300;
+    }
+}
+.main__seccionCartas {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+    .main__cartas {
+        position: relative;
+        min-width: 320px;
+        height: 300px;
+        box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                    inset -5px -5px 5px rgba(255,255,255,0.5),
+                    5px 5px 5px rgba(0,0,0,0.05),
+                    -5px -5px 5px rgba(255, 255, 255, 0.5);
+        border-radius:15px;
+        margin: 30px;
+        &:hover .main__cartasCaja {
+            transform: translateY(-50px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            background: linear-gradient(0deg, rgba(14,2,27,1) 25%, rgba(0,0,0,1) 100%);
+        }
+        &:hover .main__cartasCaja .main__cartasContenido h2 {
+            color: rgba(0,0,0,0.05);
+        }
+        &:hover .main__cartasCaja .main__cartasContenido h3 {
+            font-size: 1.1em;
+            color: #fff;
+            z-index: 1;
+            transition: 0.5s;
+        }
+        &:hover .main__cartasCaja .main__cartasContenido p {
+            color: #fff;
+        }
+        &Caja {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px ;
+            background:#52515310;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+        &Contenido {
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            & h2 {
+                margin-bottom: 20px;
+                font-size: 2.5em;
+                color: rgba(32, 5, 51, 0.692);
+                transition: 0.5s;
+                font-family: 'Open Sans', sans-serif;
+                font-style: italic;
+                font-weight: 200;
+            }
+            & p {
+                font-size: 1em;
+                font-weight: 300;
+                color: #777;
+                z-index: 1;
+                transition: 0.5s;
+            }
+        }
+    }
+
+}
+.main__secciones {
+    display: flex;
+    height: 700px;
+    padding: 100px 100px;
+    flex-direction: column;
+    background-image: url(../Assets/FondoSeccionesIndex.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: left;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    & a {
+        color: white;
+        font-size: 2.7rem;
+        font-family: 'Teko', sans-serif;
+        border-left: 2px solid white;
+        padding: 5px 15px;
+        transition: all 0.5s;
+        &:hover {
+            background: white;
+            color: black;
+        }
+    }
+}  
+
+
+@media screen and (max-width:768px) {
+    
+    
+    .main__frase--grande{
+    font-size: 1rem;
+    }
+    .main__frase--italica {
+    font-size: 1rem;
+    }
+    .main__secciones {
+    padding: 0px;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    & a {
+    font-size: 1.5rem;
+    }
+    }
+    .main__imagen {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-size: 200%;
+    & span {
+    font-size: 1.5rem;
+    margin: 5px;
+    }
+    }
+    .footer__frase {
+        font-size: 0.8rem;
+    }
+}

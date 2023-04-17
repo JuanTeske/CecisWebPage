@@ -1,0 +1,41 @@
+$primary-color: #6c757d;
+
+.container {
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: $primary-color;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+    color: white;
+    background-color: $primary-color;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+
+    &:hover {
+    background-color: darken($primary-color, 10%);
+    }
+}
+}
+
+.Error__Imagen{
+align-items: center;
+justify-content: center;
+}
