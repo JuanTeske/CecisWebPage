@@ -124,5 +124,10 @@
 
 .overwrap{
 
-    overflow: hidden;
+    overflow-x: auto;
+}
+
+.diverror{
+    width: 100%;
+    height: 100%;
 }
