@@ -64,6 +64,10 @@ a {
   cursor: pointer;
   display: none; }
 
+.close{ display: none;
+
+}
+
 ul.show {
   top: 65px; }
 
@@ -74,15 +78,13 @@ ul.show {
   .nav__items li a {
     font-size: 1rem; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 200px) {
+
+
   .nav__logo {
     font-size: 1.563rem;
     padding-left: 35px; }
-  .nav {
-    height: 65px;
-    z-index: 5; }
-  .btn__menu {
-    display: inline-flex; }
+
   .nav__items {
     padding: 0px;
     position: fixed;
@@ -90,6 +92,7 @@ ul.show {
     height: calc(100% - 100px);
     background: #414141;
     top: -100vh;
+    overflow:auto;
     text-align: center;
     transition: all .4s;
     flex-direction: column; }
